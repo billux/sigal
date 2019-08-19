@@ -1,4 +1,5 @@
 author = 'John Doe'
+license = 'CC BY-SA 3.0'
 title = 'Sigal test gallery ☺'
 source = 'pictures'
 thumb_suffix = '.tn'

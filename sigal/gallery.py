@@ -342,6 +342,11 @@ class Album:
         except KeyError:
             self.author = self.settings.get('author')
 
+        try:
+            self.license = self.meta['license'][0]
+        except KeyError:
+            self.license = self.settings.get('license')
+
     def create_output_directories(self):
         """Create output directories for thumbnails and original images."""
         check_or_create_dir(self.dst_path)

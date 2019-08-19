@@ -27,6 +27,9 @@ theme = 'galleria'
 # Author. Used in the footer of the pages and in the author meta tag.
 # author = ''
 
+# License. Used in the footer of the pages.
+# license = ''
+
 # Use originals in gallery (default: False). If True, this will bypass all
 # processing steps (resize, auto-orient, recompress, and any plugin-specific
 # step).
